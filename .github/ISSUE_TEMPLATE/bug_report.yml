@@ -1,0 +1,44 @@
+name: Bug Report
+description: Create a bug report to help improve Files Bot
+labels: [bug]
+body:
+
+  # Description
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what the issue is.
+    validations:
+      required: true
+
+  # Step To Reproduce
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  # Requirements
+  - type: textarea
+    attributes:
+      label: Requirements
+      description: describe the expected behavior. If left blank, the issue will likely be closed without discussion.
+      value: |
+        - e.g. Fix problems that occurs when...
+    validations:
+      required: true
+
+  # Files Bot Version
+  - type: input
+    id: files_version
+    attributes:
+      label: Files Bot Version
+      description: Which version of Files Bot are you seeing this issue in?
+      placeholder: "e.g. 0.0.1"
+    validations:
+      required: true
