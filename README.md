@@ -14,6 +14,25 @@
 
 ## 🎁 Getting started with Files Bot
 
+### Building from source
+
+#### 1. Prerequisits
+
+1. Windows 10 or 11
+2. Visual Studio 2022
+3. 'Azure development' workload
+4. '.NET desktop development'
+
+#### 2. Clone
+
+Create a local copy of the repository.
+
+```
+git clone https://github.com/files-community/Files
+```
+
+#### 3. Build
+
 _Coming soon_
 
 ## 🚀 Contributing
